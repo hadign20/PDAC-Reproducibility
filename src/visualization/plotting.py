@@ -1,7 +1,29 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
-from sklearn.utils import resample
+import seaborn as sns
+
+def plot_boxplot(data, x, y, hue=None, title=None, figsize=(10, 6), save_path=None):
+    """Plot and save a boxplot."""
+    plt.figure(figsize=figsize)
+    sns.boxplot(data=data, x=x, y=y, hue=hue)
+    if title:
+        plt.title(title)
+    if save_path:
+        plt.savefig(save_path)
+    plt.close()
+
+def plot_facet_grid_boxplot(data, x, y, hue=None, col=None, col_wrap=4, order=None, hue_order=None, title=None, save_path=None):
+    """Plot and save a FacetGrid of boxplots."""
+    g = sns.FacetGrid(data, col=col, col_wrap=col_wrap, height=4, aspect=1.2)
+    g.map(sns.boxplot, x, y, hue, order=order, hue_order=hue_order)
+    g.add_legend()
+    g.set_titles("{col_name}")
+    if title:
+        g.fig.suptitle(title, y=1.05)
+    if save_path:
+        g.savefig(save_path)
+    plt.close()
 
 
 def plot_auc_with_ci(y_true, y_pred, n_bootstraps=1000, alpha=0.95):
