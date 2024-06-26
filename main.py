@@ -1,16 +1,25 @@
-# This is a sample Python script.
+import os
+import pandas as pd
+from src.preprocessing.data_loader import load_nifti, load_dicom
+from src.preprocessing.data_cleaning import clean_clinical_data, normalize_radiomics_features
+from src.feature_extraction.radiomics_features import extract_radiomics_features
+#from src.feature_extraction.deep_features import extract_deep_features
+from src.feature_selection.correlation import calculate_correlation_matrix, select_highly_correlated_features
+from src.model.train_test_split import split_data
+from src.model.train import train_model, evaluate_model
+from src.visualization.auc_plot import plot_auc_with_ci
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+def main():
+    # Load and preprocess data
+    image, affine = load_nifti('data/raw/image.nii')
+    mask, _ = load_nifti('data/raw/mask.nii')
+    clinical_data = pd.read_csv('data/raw/clinical.csv')
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+if __name__ == "__main__":
+    main()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
