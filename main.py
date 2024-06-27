@@ -15,8 +15,8 @@ from src.feature_selection.inter_reader_agreement import *
 from src.visualization.plotting import *
 
 
-EXTRACT_RADIOMICS = False
-CALCULATE_DICE_SCORE = False
+EXTRACT_RADIOMICS = True
+CALCULATE_DICE_SCORE = True
 CALCULATE_ICC_VALUES = True
 
 
