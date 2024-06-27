@@ -55,6 +55,13 @@ def resample_image(image, reference_image):
 
 
 
+def load_excel_sheets(file_path, sheets):
+    data = {}
+    for sheet in sheets:
+        df = pd.read_excel(file_path, sheet_name=sheet)
+        data[sheet] = df
+    return data
+
 
 def load_data(file_path, file_type=None):
     """General data loading function."""

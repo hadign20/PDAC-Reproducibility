@@ -15,8 +15,9 @@ from src.feature_selection.inter_reader_agreement import *
 from src.visualization.plotting import *
 
 
-EXTRACT_RADIOMICS = True
+EXTRACT_RADIOMICS = False
 CALCULATE_DICE_SCORE = False
+CALCULATE_ICC_VALUES = True
 
 
 data_path = r'D:\projects\pdac_reproducibility\PDACreproducibility'
@@ -208,6 +209,53 @@ def main():
             title="Dice Scores for Novices (Overall)",
             save_path=os.path.join(result_path, "dice_scores_novices.png")
         )
+
+    # =========================================================
+    # Calculate ICC values
+    # =========================================================
+    if CALCULATE_ICC_VALUES:
+        excel_files = {
+            'post_pancreas': os.path.join(result_path, 'PyRadiomics_post_pancreas.xlsx'),
+            'post_tumor': os.path.join(result_path, 'PyRadiomics_post_tumor.xlsx'),
+            'pre_pancreas': os.path.join(result_path, 'PyRadiomics_pre_pancreas.xlsx'),
+            'pre_tumor': os.path.join(result_path, 'PyRadiomics_pre_tumor.xlsx')
+        }
+
+        comparisons = [
+            ('experts', experts),
+            ('novices', novices),
+            ('experts_vs_novices', experts + novices)
+        ]
+
+        for key, file_path in excel_files.items():
+            sheets = ["Natally", "Maria", "Burcin", "Onur"]
+            data = load_excel_sheets(file_path, sheets)
+
+            # Combine all data into one DataFrame for each feature
+            combined_data = {}
+            features = data[sheets[0]].columns[39:]  # Assuming the first two columns are Case_ID and Rater
+            for feature in features:
+                combined_data[feature] = []
+                for sheet in sheets:
+                    df = data[sheet]
+                    df['Rater'] = sheet
+                    combined_data[feature].append(df[['Case_ID', feature]].assign(Rater=sheet))
+                combined_data[feature] = pd.concat(combined_data[feature])
+
+            # Calculate ICC3 for each comparison
+            for comp_name, comp_raters in comparisons:
+                comp_data = {feature: combined_data[feature][combined_data[feature]['Rater'].isin(comp_raters)] for
+                             feature in features}
+                comp_prepared_data = {feature: prepare_data_for_icc(comp_data[feature], feature) for feature in
+                                      features}
+                icc3_df = calculate_icc3_for_features(comp_prepared_data)
+
+                # Save ICC3 values to Excel
+                output_path = os.path.join(result_path, f'ICC3_{comp_name}_{key}.xlsx')
+                icc3_df.to_excel(output_path, index=False)
+                print(f"ICC3 values saved to {output_path}")
+
+
 
 
 
