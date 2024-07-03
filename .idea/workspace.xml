@@ -5,31 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee4bbc1-d899-4123-96f4-125597e307d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_experts_post_pancreas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_experts_post_tumor.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_experts_pre_pancreas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_experts_pre_tumor.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_experts_vs_novices_post_pancreas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_experts_vs_novices_post_tumor.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_experts_vs_novices_pre_pancreas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_experts_vs_novices_pre_tumor.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_novices_post_pancreas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_novices_post_tumor.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_novices_pre_pancreas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ICC3_novices_pre_tumor.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/PyRadiomics_post_pancreas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/PyRadiomics_post_tumor.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/PyRadiomics_pre_pancreas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/PyRadiomics_pre_tumor.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/detailed_dice_scores.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/dice_score_statistics.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/dice_scores_expert_vs_novice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/dice_scores_expert_vs_novice_per_case.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/dice_scores_experts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/dice_scores_novices.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/feature_extraction/CT.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/feature_extraction/CT.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preprocessing/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visualization/plotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/visualization/plotting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/projects/pdac_reproducibility/pdac_reproducibility",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/colonMSI/colon_msi&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\Medical_AI" />

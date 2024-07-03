@@ -1,0 +1,721 @@
+Case,Comparison,Reader1,Reader2,Pre/Post,Organ,Dice Score
+Case_01,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8000797140259319
+Case_01,Expert vs Novice,Natally,Onur,pre,pancreas,0.8519995659015682
+Case_01,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8561505916423449
+Case_01,Expert vs Novice,Maria,Onur,pre,pancreas,0.8588118836081
+Case_01,Experts,Natally,Maria,pre,pancreas,0.8321695925803246
+Case_01,Novices,Burcin,Onur,pre,pancreas,0.8466164198571082
+Case_01,Expert vs Novice,Natally,Burcin,pre,tumor,0.4750035009102367
+Case_01,Expert vs Novice,Natally,Onur,pre,tumor,0.5626959247648903
+Case_01,Expert vs Novice,Maria,Burcin,pre,tumor,0.6527645376549094
+Case_01,Expert vs Novice,Maria,Onur,pre,tumor,0.6627852084972463
+Case_01,Experts,Natally,Maria,pre,tumor,0.7126153846153847
+Case_01,Novices,Burcin,Onur,pre,tumor,0.5969145110776012
+Case_01,Expert vs Novice,Natally,Burcin,post,pancreas,0.1698325067839431
+Case_01,Expert vs Novice,Natally,Onur,post,pancreas,0.8553310640166905
+Case_01,Expert vs Novice,Maria,Burcin,post,pancreas,0.11314920820624243
+Case_01,Expert vs Novice,Maria,Onur,post,pancreas,0.8482827609203067
+Case_01,Experts,Natally,Maria,post,pancreas,0.8093373417881414
+Case_01,Novices,Burcin,Onur,post,pancreas,0.10703628838194244
+Case_01,Expert vs Novice,Natally,Burcin,post,tumor,0.6327218270310745
+Case_01,Expert vs Novice,Natally,Onur,post,tumor,0.4994887525562372
+Case_01,Expert vs Novice,Maria,Burcin,post,tumor,0.5647159333618111
+Case_01,Expert vs Novice,Maria,Onur,post,tumor,0.6617466174661747
+Case_01,Experts,Natally,Maria,post,tumor,0.5158139534883721
+Case_01,Novices,Burcin,Onur,post,tumor,0.4918490917559385
+Case_03,Expert vs Novice,Natally,Burcin,pre,pancreas,0.6805416019727829
+Case_03,Expert vs Novice,Natally,Onur,pre,pancreas,0.8062033898305084
+Case_03,Expert vs Novice,Maria,Burcin,pre,pancreas,0.6806091325020185
+Case_03,Expert vs Novice,Maria,Onur,pre,pancreas,0.803875610722303
+Case_03,Experts,Natally,Maria,pre,pancreas,0.811987420608004
+Case_03,Novices,Burcin,Onur,pre,pancreas,0.6321601766937149
+Case_03,Expert vs Novice,Natally,Burcin,pre,tumor,0.010164424514200299
+Case_03,Expert vs Novice,Natally,Onur,pre,tumor,0.11574697173620457
+Case_03,Expert vs Novice,Maria,Burcin,pre,tumor,0.0
+Case_03,Expert vs Novice,Maria,Onur,pre,tumor,0.15772870662460567
+Case_03,Experts,Natally,Maria,pre,tumor,0.06233062330623306
+Case_03,Novices,Burcin,Onur,pre,tumor,0.01245835144140229
+Case_03,Expert vs Novice,Natally,Burcin,post,pancreas,0.7590915378919187
+Case_03,Expert vs Novice,Natally,Onur,post,pancreas,0.8831366421316666
+Case_03,Expert vs Novice,Maria,Burcin,post,pancreas,0.8224527428497712
+Case_03,Expert vs Novice,Maria,Onur,post,pancreas,0.8799050543488499
+Case_03,Experts,Natally,Maria,post,pancreas,0.8541919805589308
+Case_03,Novices,Burcin,Onur,post,pancreas,0.7862345142273667
+Case_03,Expert vs Novice,Natally,Burcin,post,tumor,0.08554125662376987
+Case_03,Expert vs Novice,Natally,Onur,post,tumor,0.001885014137606032
+Case_03,Expert vs Novice,Maria,Burcin,post,tumor,0.0
+Case_03,Expert vs Novice,Maria,Onur,post,tumor,0.0
+Case_03,Experts,Natally,Maria,post,tumor,0.0
+Case_03,Novices,Burcin,Onur,post,tumor,0.0
+Case_04,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7571167883211679
+Case_04,Expert vs Novice,Natally,Onur,pre,pancreas,0.8267323105777543
+Case_04,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8488291802444609
+Case_04,Expert vs Novice,Maria,Onur,pre,pancreas,0.8615745990604244
+Case_04,Experts,Natally,Maria,pre,pancreas,0.8107810326543542
+Case_04,Novices,Burcin,Onur,pre,pancreas,0.8063744612275698
+Case_04,Expert vs Novice,Natally,Burcin,pre,tumor,0.14185945002182454
+Case_04,Expert vs Novice,Natally,Onur,pre,tumor,0.5357624831309041
+Case_04,Expert vs Novice,Maria,Burcin,pre,tumor,0.04716862151595409
+Case_04,Expert vs Novice,Maria,Onur,pre,tumor,0.25661787605107444
+Case_04,Experts,Natally,Maria,pre,tumor,0.13245033112582782
+Case_04,Novices,Burcin,Onur,pre,tumor,0.2499474016410688
+Case_04,Expert vs Novice,Natally,Burcin,post,pancreas,0.770848182466144
+Case_04,Expert vs Novice,Natally,Onur,post,pancreas,0.8567040852382376
+Case_04,Expert vs Novice,Maria,Burcin,post,pancreas,0.8512729363793193
+Case_04,Expert vs Novice,Maria,Onur,post,pancreas,0.8758355888462265
+Case_04,Experts,Natally,Maria,post,pancreas,0.8303538854432689
+Case_04,Novices,Burcin,Onur,post,pancreas,0.7942900443513339
+Case_04,Expert vs Novice,Natally,Burcin,post,tumor,0.0
+Case_04,Expert vs Novice,Natally,Onur,post,tumor,0.459045904590459
+Case_04,Expert vs Novice,Maria,Burcin,post,tumor,0.008137599408174588
+Case_04,Expert vs Novice,Maria,Onur,post,tumor,0.1112214498510427
+Case_04,Experts,Natally,Maria,post,tumor,0.021032504780114723
+Case_04,Novices,Burcin,Onur,post,tumor,0.001827485380116959
+Case_05,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7907757752154931
+Case_05,Expert vs Novice,Natally,Onur,pre,pancreas,0.8704142914603531
+Case_05,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8168534328455355
+Case_05,Expert vs Novice,Maria,Onur,pre,pancreas,0.8344006831038532
+Case_05,Experts,Natally,Maria,pre,pancreas,0.840680191714267
+Case_05,Novices,Burcin,Onur,pre,pancreas,0.7869551896694543
+Case_05,Expert vs Novice,Natally,Burcin,pre,tumor,0.816070068545316
+Case_05,Expert vs Novice,Natally,Onur,pre,tumor,0.8682203389830508
+Case_05,Expert vs Novice,Maria,Burcin,pre,tumor,0.8005309063329541
+Case_05,Expert vs Novice,Maria,Onur,pre,tumor,0.8760016870518769
+Case_05,Experts,Natally,Maria,pre,tumor,0.8748882931188561
+Case_05,Novices,Burcin,Onur,pre,tumor,0.8126132656759696
+Case_05,Expert vs Novice,Natally,Burcin,post,pancreas,0.824197247706422
+Case_05,Expert vs Novice,Natally,Onur,post,pancreas,0.8921584330595154
+Case_05,Expert vs Novice,Maria,Burcin,post,pancreas,0.8698078666263797
+Case_05,Expert vs Novice,Maria,Onur,post,pancreas,0.8627796667086429
+Case_05,Experts,Natally,Maria,post,pancreas,0.8570489783345313
+Case_05,Novices,Burcin,Onur,post,pancreas,0.8123110530319284
+Case_05,Expert vs Novice,Natally,Burcin,post,tumor,0.77728285077951
+Case_05,Expert vs Novice,Natally,Onur,post,tumor,0.7925407925407926
+Case_05,Expert vs Novice,Maria,Burcin,post,tumor,0.6965742251223491
+Case_05,Expert vs Novice,Maria,Onur,post,tumor,0.8397267472411981
+Case_05,Experts,Natally,Maria,post,tumor,0.775375939849624
+Case_05,Novices,Burcin,Onur,post,tumor,0.6998784933171325
+Case_06,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7764507053864941
+Case_06,Expert vs Novice,Natally,Onur,pre,pancreas,0.868713093056404
+Case_06,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8415513618897995
+Case_06,Expert vs Novice,Maria,Onur,pre,pancreas,0.8649869837956857
+Case_06,Experts,Natally,Maria,pre,pancreas,0.8414184921303941
+Case_06,Novices,Burcin,Onur,pre,pancreas,0.7904833109720502
+Case_06,Expert vs Novice,Natally,Burcin,pre,tumor,0.8269297095950886
+Case_06,Expert vs Novice,Natally,Onur,pre,tumor,0.7401055408970977
+Case_06,Expert vs Novice,Maria,Burcin,pre,tumor,0.848959259918164
+Case_06,Expert vs Novice,Maria,Onur,pre,tumor,0.6605270821199767
+Case_06,Experts,Natally,Maria,pre,tumor,0.7904910853925555
+Case_06,Novices,Burcin,Onur,pre,tumor,0.7273840627041149
+Case_06,Expert vs Novice,Natally,Burcin,post,pancreas,0.7146616102282954
+Case_06,Expert vs Novice,Natally,Onur,post,pancreas,0.8799162311226655
+Case_06,Expert vs Novice,Maria,Burcin,post,pancreas,0.794307417167485
+Case_06,Expert vs Novice,Maria,Onur,post,pancreas,0.8553517191106791
+Case_06,Experts,Natally,Maria,post,pancreas,0.8351722995361166
+Case_06,Novices,Burcin,Onur,post,pancreas,0.741217245890143
+Case_06,Expert vs Novice,Natally,Burcin,post,tumor,0.5812533668522176
+Case_06,Expert vs Novice,Natally,Onur,post,tumor,0.7411871045495632
+Case_06,Expert vs Novice,Maria,Burcin,post,tumor,0.5789332857652515
+Case_06,Expert vs Novice,Maria,Onur,post,tumor,0.7587357255891536
+Case_06,Experts,Natally,Maria,post,tumor,0.8189505473763684
+Case_06,Novices,Burcin,Onur,post,tumor,0.6188761934575051
+Case_07,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8421742503276891
+Case_07,Expert vs Novice,Natally,Onur,pre,pancreas,0.9039771075303371
+Case_07,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8459072562328848
+Case_07,Expert vs Novice,Maria,Onur,pre,pancreas,0.8815684419079162
+Case_07,Experts,Natally,Maria,pre,pancreas,0.8746887477715077
+Case_07,Novices,Burcin,Onur,pre,pancreas,0.8471064954581438
+Case_07,Expert vs Novice,Natally,Burcin,pre,tumor,0.7330646209855676
+Case_07,Expert vs Novice,Natally,Onur,pre,tumor,0.8046324269889225
+Case_07,Expert vs Novice,Maria,Burcin,pre,tumor,0.6446575342465753
+Case_07,Expert vs Novice,Maria,Onur,pre,tumor,0.7648643793784803
+Case_07,Experts,Natally,Maria,pre,tumor,0.6934318830841593
+Case_07,Novices,Burcin,Onur,pre,tumor,0.7206023271731691
+Case_07,Expert vs Novice,Natally,Burcin,post,pancreas,0.687606873080435
+Case_07,Expert vs Novice,Natally,Onur,post,pancreas,0.8485321817430055
+Case_07,Expert vs Novice,Maria,Burcin,post,pancreas,0.751882722254009
+Case_07,Expert vs Novice,Maria,Onur,post,pancreas,0.82971271317183
+Case_07,Experts,Natally,Maria,post,pancreas,0.83762037770459
+Case_07,Novices,Burcin,Onur,post,pancreas,0.6832815846713268
+Case_07,Expert vs Novice,Natally,Burcin,post,tumor,0.21635711958292603
+Case_07,Expert vs Novice,Natally,Onur,post,tumor,0.2855906533967979
+Case_07,Expert vs Novice,Maria,Burcin,post,tumor,0.5696535244922342
+Case_07,Expert vs Novice,Maria,Onur,post,tumor,0.7306682229355121
+Case_07,Experts,Natally,Maria,post,tumor,0.37130339539978097
+Case_07,Novices,Burcin,Onur,post,tumor,0.6436830835117773
+Case_09,Expert vs Novice,Natally,Burcin,pre,pancreas,0.761184277396216
+Case_09,Expert vs Novice,Natally,Onur,pre,pancreas,0.8859512366122084
+Case_09,Expert vs Novice,Maria,Burcin,pre,pancreas,0.809792177950604
+Case_09,Expert vs Novice,Maria,Onur,pre,pancreas,0.8792119565217391
+Case_09,Experts,Natally,Maria,pre,pancreas,0.8623294912457131
+Case_09,Novices,Burcin,Onur,pre,pancreas,0.7759261255434587
+Case_09,Expert vs Novice,Natally,Burcin,pre,tumor,0.0
+Case_09,Expert vs Novice,Natally,Onur,pre,tumor,0.5270721067487811
+Case_09,Expert vs Novice,Maria,Burcin,pre,tumor,0.0
+Case_09,Expert vs Novice,Maria,Onur,pre,tumor,0.4964788732394366
+Case_09,Experts,Natally,Maria,pre,tumor,0.2802273172643543
+Case_09,Novices,Burcin,Onur,pre,tumor,0.0
+Case_09,Expert vs Novice,Natally,Burcin,post,pancreas,0.8473703714832287
+Case_09,Expert vs Novice,Natally,Onur,post,pancreas,0.8857849054434672
+Case_09,Expert vs Novice,Maria,Burcin,post,pancreas,0.8790145345079137
+Case_09,Expert vs Novice,Maria,Onur,post,pancreas,0.8670313089400227
+Case_09,Experts,Natally,Maria,post,pancreas,0.8652009771263602
+Case_09,Novices,Burcin,Onur,post,pancreas,0.8480678343063665
+Case_09,Expert vs Novice,Natally,Burcin,post,tumor,0.0
+Case_09,Expert vs Novice,Natally,Onur,post,tumor,0.5462603878116343
+Case_09,Expert vs Novice,Maria,Burcin,post,tumor,0.0
+Case_09,Expert vs Novice,Maria,Onur,post,tumor,0.47835497835497837
+Case_09,Experts,Natally,Maria,post,tumor,0.39314966492926284
+Case_09,Novices,Burcin,Onur,post,tumor,0.0
+Case_10,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7917393182218099
+Case_10,Expert vs Novice,Natally,Onur,pre,pancreas,0.873152217339193
+Case_10,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8238990000294977
+Case_10,Expert vs Novice,Maria,Onur,pre,pancreas,0.8355345173354533
+Case_10,Experts,Natally,Maria,pre,pancreas,0.8290115306751167
+Case_10,Novices,Burcin,Onur,pre,pancreas,0.777961576887171
+Case_10,Expert vs Novice,Natally,Burcin,pre,tumor,0.23013698630136986
+Case_10,Expert vs Novice,Natally,Onur,pre,tumor,0.32994350282485874
+Case_10,Expert vs Novice,Maria,Burcin,pre,tumor,0.5659574468085107
+Case_10,Expert vs Novice,Maria,Onur,pre,tumor,0.704
+Case_10,Experts,Natally,Maria,pre,tumor,0.3161764705882353
+Case_10,Novices,Burcin,Onur,pre,tumor,0.6122448979591837
+Case_10,Expert vs Novice,Natally,Burcin,post,pancreas,0.8036083630292308
+Case_10,Expert vs Novice,Natally,Onur,post,pancreas,0.8839052173778459
+Case_10,Expert vs Novice,Maria,Burcin,post,pancreas,0.8450451081311345
+Case_10,Expert vs Novice,Maria,Onur,post,pancreas,0.8642698041007482
+Case_10,Experts,Natally,Maria,post,pancreas,0.860616587060356
+Case_10,Novices,Burcin,Onur,post,pancreas,0.7933486267601171
+Case_10,Expert vs Novice,Natally,Burcin,post,tumor,0.4310226492793411
+Case_10,Expert vs Novice,Natally,Onur,post,tumor,0.3801765105227427
+Case_10,Expert vs Novice,Maria,Burcin,post,tumor,0.5484996510816469
+Case_10,Expert vs Novice,Maria,Onur,post,tumor,0.6473429951690821
+Case_10,Experts,Natally,Maria,post,tumor,0.48693586698337293
+Case_10,Novices,Burcin,Onur,post,tumor,0.55810147299509
+Case_12,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8085245489407179
+Case_12,Expert vs Novice,Natally,Onur,pre,pancreas,0.8632473213719648
+Case_12,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8143325664496549
+Case_12,Expert vs Novice,Maria,Onur,pre,pancreas,0.8593752393792227
+Case_12,Experts,Natally,Maria,pre,pancreas,0.8380479783044589
+Case_12,Novices,Burcin,Onur,pre,pancreas,0.7741935483870968
+Case_12,Expert vs Novice,Natally,Burcin,pre,tumor,0.7377571008814887
+Case_12,Expert vs Novice,Natally,Onur,pre,tumor,0.7754654983570646
+Case_12,Expert vs Novice,Maria,Burcin,pre,tumor,0.796448449509674
+Case_12,Expert vs Novice,Maria,Onur,pre,tumor,0.8508229098090849
+Case_12,Experts,Natally,Maria,pre,tumor,0.7607125662012518
+Case_12,Novices,Burcin,Onur,pre,tumor,0.8321931589537224
+Case_12,Expert vs Novice,Natally,Burcin,post,pancreas,0.6568184102100292
+Case_12,Expert vs Novice,Natally,Onur,post,pancreas,0.8125671477104446
+Case_12,Expert vs Novice,Maria,Burcin,post,pancreas,0.6895222255820985
+Case_12,Expert vs Novice,Maria,Onur,post,pancreas,0.8090222364081285
+Case_12,Experts,Natally,Maria,post,pancreas,0.7991163092917479
+Case_12,Novices,Burcin,Onur,post,pancreas,0.6394958670922334
+Case_12,Expert vs Novice,Natally,Burcin,post,tumor,0.6141147338010731
+Case_12,Expert vs Novice,Natally,Onur,post,tumor,0.644360124180752
+Case_12,Expert vs Novice,Maria,Burcin,post,tumor,0.6452304394426581
+Case_12,Expert vs Novice,Maria,Onur,post,tumor,0.6157130657557643
+Case_12,Experts,Natally,Maria,post,tumor,0.5896003437902879
+Case_12,Novices,Burcin,Onur,post,tumor,0.6037735849056604
+Case_13,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7916247083384502
+Case_13,Expert vs Novice,Natally,Onur,pre,pancreas,0.8348314435270957
+Case_13,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8311392287295902
+Case_13,Expert vs Novice,Maria,Onur,pre,pancreas,0.8384675750873939
+Case_13,Experts,Natally,Maria,pre,pancreas,0.8460257670051315
+Case_13,Novices,Burcin,Onur,pre,pancreas,0.7638255179377069
+Case_13,Expert vs Novice,Natally,Burcin,pre,tumor,0.7089059923034634
+Case_13,Expert vs Novice,Natally,Onur,pre,tumor,0.74
+Case_13,Expert vs Novice,Maria,Burcin,pre,tumor,0.7522264631043257
+Case_13,Expert vs Novice,Maria,Onur,pre,tumor,0.6352583586626139
+Case_13,Experts,Natally,Maria,pre,tumor,0.7577177508269018
+Case_13,Novices,Burcin,Onur,pre,tumor,0.5972703639514731
+Case_13,Expert vs Novice,Natally,Burcin,post,pancreas,0.7065834733221342
+Case_13,Expert vs Novice,Natally,Onur,post,pancreas,0.8405310465957228
+Case_13,Expert vs Novice,Maria,Burcin,post,pancreas,0.7648766328011611
+Case_13,Expert vs Novice,Maria,Onur,post,pancreas,0.8327705785727323
+Case_13,Experts,Natally,Maria,post,pancreas,0.792819988853799
+Case_13,Novices,Burcin,Onur,post,pancreas,0.7246513826518554
+Case_13,Expert vs Novice,Natally,Burcin,post,tumor,0.33201581027667987
+Case_13,Expert vs Novice,Natally,Onur,post,tumor,0.7531986531986532
+Case_13,Expert vs Novice,Maria,Burcin,post,tumor,0.37031427489587276
+Case_13,Expert vs Novice,Maria,Onur,post,tumor,0.6766456266907124
+Case_13,Experts,Natally,Maria,post,tumor,0.7766688844533156
+Case_13,Novices,Burcin,Onur,post,tumor,0.23919449901768172
+Case_15,Expert vs Novice,Natally,Burcin,pre,pancreas,0.6912412233726051
+Case_15,Expert vs Novice,Natally,Onur,pre,pancreas,0.8175958510835339
+Case_15,Expert vs Novice,Maria,Burcin,pre,pancreas,0.7334772987816257
+Case_15,Expert vs Novice,Maria,Onur,pre,pancreas,0.7867732746342095
+Case_15,Experts,Natally,Maria,pre,pancreas,0.7849731097753876
+Case_15,Novices,Burcin,Onur,pre,pancreas,0.6726454672584666
+Case_15,Expert vs Novice,Natally,Burcin,pre,tumor,0.3416647557899564
+Case_15,Expert vs Novice,Natally,Onur,pre,tumor,0.7583582495243273
+Case_15,Expert vs Novice,Maria,Burcin,pre,tumor,0.3402624207577768
+Case_15,Expert vs Novice,Maria,Onur,pre,tumor,0.668742829044419
+Case_15,Experts,Natally,Maria,pre,tumor,0.547463768115942
+Case_15,Novices,Burcin,Onur,pre,tumor,0.3856738162687171
+Case_15,Expert vs Novice,Natally,Burcin,post,pancreas,0.7017937960424169
+Case_15,Expert vs Novice,Natally,Onur,post,pancreas,0.8049217138002185
+Case_15,Expert vs Novice,Maria,Burcin,post,pancreas,0.7255480519480519
+Case_15,Expert vs Novice,Maria,Onur,post,pancreas,0.7914616883207893
+Case_15,Experts,Natally,Maria,post,pancreas,0.7489900165705756
+Case_15,Novices,Burcin,Onur,post,pancreas,0.6983542926375069
+Case_15,Expert vs Novice,Natally,Burcin,post,tumor,0.4848006316620608
+Case_15,Expert vs Novice,Natally,Onur,post,tumor,0.5734741363880437
+Case_15,Expert vs Novice,Maria,Burcin,post,tumor,0.4473266278454209
+Case_15,Expert vs Novice,Maria,Onur,post,tumor,0.573953823953824
+Case_15,Experts,Natally,Maria,post,tumor,0.8130143056083049
+Case_15,Novices,Burcin,Onur,post,tumor,0.39778794813119756
+Case_18,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7389235637126873
+Case_18,Expert vs Novice,Natally,Onur,pre,pancreas,0.8519085215333456
+Case_18,Expert vs Novice,Maria,Burcin,pre,pancreas,0.801317421617691
+Case_18,Expert vs Novice,Maria,Onur,pre,pancreas,0.8294331167376204
+Case_18,Experts,Natally,Maria,pre,pancreas,0.8165619886088332
+Case_18,Novices,Burcin,Onur,pre,pancreas,0.7551832460732985
+Case_18,Expert vs Novice,Natally,Burcin,pre,tumor,0.19772142594634326
+Case_18,Expert vs Novice,Natally,Onur,pre,tumor,0.34696038974793475
+Case_18,Expert vs Novice,Maria,Burcin,pre,tumor,0.31962174940898347
+Case_18,Expert vs Novice,Maria,Onur,pre,tumor,0.6950976484655241
+Case_18,Experts,Natally,Maria,pre,tumor,0.12825229960578186
+Case_18,Novices,Burcin,Onur,pre,tumor,0.39761092150170646
+Case_18,Expert vs Novice,Natally,Burcin,post,pancreas,0.7616063799487326
+Case_18,Expert vs Novice,Natally,Onur,post,pancreas,0.8748778103616813
+Case_18,Expert vs Novice,Maria,Burcin,post,pancreas,0.7987355684945816
+Case_18,Expert vs Novice,Maria,Onur,post,pancreas,0.8531572522472534
+Case_18,Experts,Natally,Maria,post,pancreas,0.8242016280525987
+Case_18,Novices,Burcin,Onur,post,pancreas,0.7743251021981131
+Case_18,Expert vs Novice,Natally,Burcin,post,tumor,0.23302180685358256
+Case_18,Expert vs Novice,Natally,Onur,post,tumor,0.459838653104174
+Case_18,Expert vs Novice,Maria,Burcin,post,tumor,0.23001049317943337
+Case_18,Expert vs Novice,Maria,Onur,post,tumor,0.3909068445762293
+Case_18,Experts,Natally,Maria,post,tumor,0.4326507066628209
+Case_18,Novices,Burcin,Onur,post,tumor,0.6905714285714286
+Case_19,Expert vs Novice,Natally,Burcin,pre,pancreas,0.6443743736403412
+Case_19,Expert vs Novice,Natally,Onur,pre,pancreas,0.8767596085102187
+Case_19,Expert vs Novice,Maria,Burcin,pre,pancreas,0.7148375733071796
+Case_19,Expert vs Novice,Maria,Onur,pre,pancreas,0.8068046681313366
+Case_19,Experts,Natally,Maria,pre,pancreas,0.7816191299337367
+Case_19,Novices,Burcin,Onur,pre,pancreas,0.6780825184831862
+Case_19,Expert vs Novice,Natally,Burcin,pre,tumor,0.7321339330334833
+Case_19,Expert vs Novice,Natally,Onur,pre,tumor,0.8573985680190931
+Case_19,Expert vs Novice,Maria,Burcin,pre,tumor,0.7539797395079595
+Case_19,Expert vs Novice,Maria,Onur,pre,tumor,0.8117848970251716
+Case_19,Experts,Natally,Maria,pre,tumor,0.7714638665843113
+Case_19,Novices,Burcin,Onur,pre,tumor,0.7591549295774648
+Case_19,Expert vs Novice,Natally,Burcin,post,pancreas,0.7970361555026635
+Case_19,Expert vs Novice,Natally,Onur,post,pancreas,0.8661750967569731
+Case_19,Expert vs Novice,Maria,Burcin,post,pancreas,0.8581940231072097
+Case_19,Expert vs Novice,Maria,Onur,post,pancreas,0.850909090909091
+Case_19,Experts,Natally,Maria,post,pancreas,0.8151186639320246
+Case_19,Novices,Burcin,Onur,post,pancreas,0.8323640472974835
+Case_19,Expert vs Novice,Natally,Burcin,post,tumor,0.6774533943017939
+Case_19,Expert vs Novice,Natally,Onur,post,tumor,0.7790559301864339
+Case_19,Expert vs Novice,Maria,Burcin,post,tumor,0.7486631016042781
+Case_19,Expert vs Novice,Maria,Onur,post,tumor,0.8002628120893561
+Case_19,Experts,Natally,Maria,post,tumor,0.739284309870232
+Case_19,Novices,Burcin,Onur,post,tumor,0.8211722488038278
+Case_20,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7560635072602521
+Case_20,Expert vs Novice,Natally,Onur,pre,pancreas,0.8725197197589535
+Case_20,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8216123340692637
+Case_20,Expert vs Novice,Maria,Onur,pre,pancreas,0.8862036262203626
+Case_20,Experts,Natally,Maria,pre,pancreas,0.8325286133486094
+Case_20,Novices,Burcin,Onur,pre,pancreas,0.8033537753928708
+Case_20,Expert vs Novice,Natally,Burcin,pre,tumor,0.7313687564000455
+Case_20,Expert vs Novice,Natally,Onur,pre,tumor,0.779880193971665
+Case_20,Expert vs Novice,Maria,Burcin,pre,tumor,0.8306745670009116
+Case_20,Expert vs Novice,Maria,Onur,pre,tumor,0.8682406702208683
+Case_20,Experts,Natally,Maria,pre,tumor,0.774663792218458
+Case_20,Novices,Burcin,Onur,pre,tumor,0.7883165829145728
+Case_20,Expert vs Novice,Natally,Burcin,post,pancreas,0.7126724558236371
+Case_20,Expert vs Novice,Natally,Onur,post,pancreas,0.872611246440457
+Case_20,Expert vs Novice,Maria,Burcin,post,pancreas,0.7520521367096165
+Case_20,Expert vs Novice,Maria,Onur,post,pancreas,0.8564696142272604
+Case_20,Experts,Natally,Maria,post,pancreas,0.8365020237692097
+Case_20,Novices,Burcin,Onur,post,pancreas,0.732816065723414
+Case_20,Expert vs Novice,Natally,Burcin,post,tumor,0.7802508390743685
+Case_20,Expert vs Novice,Natally,Onur,post,tumor,0.8348953452046236
+Case_20,Expert vs Novice,Maria,Burcin,post,tumor,0.8270544944804626
+Case_20,Expert vs Novice,Maria,Onur,post,tumor,0.893455334987593
+Case_20,Experts,Natally,Maria,post,tumor,0.8223454833597464
+Case_20,Novices,Burcin,Onur,post,tumor,0.8230729436109674
+Case_21,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7537113542470604
+Case_21,Expert vs Novice,Natally,Onur,pre,pancreas,0.8190103185960684
+Case_21,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8097318007662835
+Case_21,Expert vs Novice,Maria,Onur,pre,pancreas,0.8279800737853554
+Case_21,Experts,Natally,Maria,pre,pancreas,0.7660028126842988
+Case_21,Novices,Burcin,Onur,pre,pancreas,0.8230680988632808
+Case_21,Expert vs Novice,Natally,Burcin,pre,tumor,0.5990836197021764
+Case_21,Expert vs Novice,Natally,Onur,pre,tumor,0.5444003661885871
+Case_21,Expert vs Novice,Maria,Burcin,pre,tumor,0.2038753159224937
+Case_21,Expert vs Novice,Maria,Onur,pre,tumor,0.3164091243561442
+Case_21,Experts,Natally,Maria,pre,tumor,0.24787997390737115
+Case_21,Novices,Burcin,Onur,pre,tumor,0.43125213237802795
+Case_21,Expert vs Novice,Natally,Burcin,post,pancreas,0.6854222821203954
+Case_21,Expert vs Novice,Natally,Onur,post,pancreas,0.8061375260465997
+Case_21,Expert vs Novice,Maria,Burcin,post,pancreas,0.7694378502728764
+Case_21,Expert vs Novice,Maria,Onur,post,pancreas,0.7868520859671302
+Case_21,Experts,Natally,Maria,post,pancreas,0.7532257542929212
+Case_21,Novices,Burcin,Onur,post,pancreas,0.7152175708034019
+Case_21,Expert vs Novice,Natally,Burcin,post,tumor,0.0
+Case_21,Expert vs Novice,Natally,Onur,post,tumor,0.0009153318077803204
+Case_21,Expert vs Novice,Maria,Burcin,post,tumor,0.2079207920792079
+Case_21,Expert vs Novice,Maria,Onur,post,tumor,0.22359154929577466
+Case_21,Experts,Natally,Maria,post,tumor,0.04452690166975881
+Case_21,Novices,Burcin,Onur,post,tumor,0.08682926829268292
+Case_23,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7606857758765873
+Case_23,Expert vs Novice,Natally,Onur,pre,pancreas,0.8038345612860014
+Case_23,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8309888725593113
+Case_23,Expert vs Novice,Maria,Onur,pre,pancreas,0.7849673202614379
+Case_23,Experts,Natally,Maria,pre,pancreas,0.7690099425850722
+Case_23,Novices,Burcin,Onur,pre,pancreas,0.7644165358451073
+Case_23,Expert vs Novice,Natally,Burcin,pre,tumor,0.0
+Case_23,Expert vs Novice,Natally,Onur,pre,tumor,0.0
+Case_23,Expert vs Novice,Maria,Burcin,pre,tumor,0.0
+Case_23,Expert vs Novice,Maria,Onur,pre,tumor,0.08878504672897196
+Case_23,Experts,Natally,Maria,pre,tumor,0.0
+Case_23,Novices,Burcin,Onur,pre,tumor,0.2339688041594454
+Case_23,Expert vs Novice,Natally,Burcin,post,pancreas,0.7400762917581782
+Case_23,Expert vs Novice,Natally,Onur,post,pancreas,0.7921796625626994
+Case_23,Expert vs Novice,Maria,Burcin,post,pancreas,0.8397359681849863
+Case_23,Expert vs Novice,Maria,Onur,post,pancreas,0.7877877631416964
+Case_23,Experts,Natally,Maria,post,pancreas,0.7657937845730158
+Case_23,Novices,Burcin,Onur,post,pancreas,0.7744377110829002
+Case_23,Expert vs Novice,Natally,Burcin,post,tumor,0.0
+Case_23,Expert vs Novice,Natally,Onur,post,tumor,0.0
+Case_23,Expert vs Novice,Maria,Burcin,post,tumor,0.0
+Case_23,Expert vs Novice,Maria,Onur,post,tumor,0.05210800568450971
+Case_23,Experts,Natally,Maria,post,tumor,0.0
+Case_23,Novices,Burcin,Onur,post,tumor,0.11916407292129835
+Case_24,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8177100414777659
+Case_24,Expert vs Novice,Natally,Onur,pre,pancreas,0.8826774707986724
+Case_24,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8644336432797971
+Case_24,Expert vs Novice,Maria,Onur,pre,pancreas,0.8755038850265817
+Case_24,Experts,Natally,Maria,pre,pancreas,0.8413997318981213
+Case_24,Novices,Burcin,Onur,pre,pancreas,0.8474767409078094
+Case_24,Expert vs Novice,Natally,Burcin,pre,tumor,0.6282009724473258
+Case_24,Expert vs Novice,Natally,Onur,pre,tumor,0.734827264239029
+Case_24,Expert vs Novice,Maria,Burcin,pre,tumor,0.3133819951338199
+Case_24,Expert vs Novice,Maria,Onur,pre,tumor,0.6645319269165568
+Case_24,Experts,Natally,Maria,pre,tumor,0.532732345996995
+Case_24,Novices,Burcin,Onur,pre,tumor,0.5033467202141901
+Case_24,Expert vs Novice,Natally,Burcin,post,pancreas,0.7374306673823582
+Case_24,Expert vs Novice,Natally,Onur,post,pancreas,0.8644164109557905
+Case_24,Expert vs Novice,Maria,Burcin,post,pancreas,0.8131598998584957
+Case_24,Expert vs Novice,Maria,Onur,post,pancreas,0.8487386444226808
+Case_24,Experts,Natally,Maria,post,pancreas,0.8250094524456054
+Case_24,Novices,Burcin,Onur,post,pancreas,0.7663279689886057
+Case_24,Expert vs Novice,Natally,Burcin,post,tumor,0.4783404514948139
+Case_24,Expert vs Novice,Natally,Onur,post,tumor,0.5984909295231979
+Case_24,Expert vs Novice,Maria,Burcin,post,tumor,0.6170376055257099
+Case_24,Expert vs Novice,Maria,Onur,post,tumor,0.7059137631824857
+Case_24,Experts,Natally,Maria,post,tumor,0.44620131122252216
+Case_24,Novices,Burcin,Onur,post,tumor,0.7588308317345672
+Case_25,Expert vs Novice,Natally,Burcin,pre,pancreas,0.817908470759653
+Case_25,Expert vs Novice,Natally,Onur,pre,pancreas,0.8862633710038074
+Case_25,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8543926548443227
+Case_25,Expert vs Novice,Maria,Onur,pre,pancreas,0.8816049967933525
+Case_25,Experts,Natally,Maria,pre,pancreas,0.8681673817351089
+Case_25,Novices,Burcin,Onur,pre,pancreas,0.828364243765991
+Case_25,Expert vs Novice,Natally,Burcin,pre,tumor,0.4035553197134518
+Case_25,Expert vs Novice,Natally,Onur,pre,tumor,0.4776009791921665
+Case_25,Expert vs Novice,Maria,Burcin,pre,tumor,0.6725076959507459
+Case_25,Expert vs Novice,Maria,Onur,pre,tumor,0.6580744657413528
+Case_25,Experts,Natally,Maria,pre,tumor,0.39078087375300996
+Case_25,Novices,Burcin,Onur,pre,tumor,0.7322718015182373
+Case_25,Expert vs Novice,Natally,Burcin,post,pancreas,0.8088316298427076
+Case_25,Expert vs Novice,Natally,Onur,post,pancreas,0.8648069436011001
+Case_25,Expert vs Novice,Maria,Burcin,post,pancreas,0.8511809882625706
+Case_25,Expert vs Novice,Maria,Onur,post,pancreas,0.8610850321888412
+Case_25,Experts,Natally,Maria,post,pancreas,0.8307682057432207
+Case_25,Novices,Burcin,Onur,post,pancreas,0.8221278167713336
+Case_25,Expert vs Novice,Natally,Burcin,post,tumor,0.2771345875542692
+Case_25,Expert vs Novice,Natally,Onur,post,tumor,0.2798447842958229
+Case_25,Expert vs Novice,Maria,Burcin,post,tumor,0.5993808049535604
+Case_25,Expert vs Novice,Maria,Onur,post,tumor,0.7462086041473228
+Case_25,Experts,Natally,Maria,post,tumor,0.20155872077398548
+Case_25,Novices,Burcin,Onur,post,tumor,0.5816530426884651
+Case_26,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8443259323755623
+Case_26,Expert vs Novice,Natally,Onur,pre,pancreas,0.875478166349631
+Case_26,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8626375533724442
+Case_26,Expert vs Novice,Maria,Onur,pre,pancreas,0.8674813710879284
+Case_26,Experts,Natally,Maria,pre,pancreas,0.863989239046887
+Case_26,Novices,Burcin,Onur,pre,pancreas,0.8402823282721434
+Case_26,Expert vs Novice,Natally,Burcin,pre,tumor,0.7776258545680547
+Case_26,Expert vs Novice,Natally,Onur,pre,tumor,0.8655020593665672
+Case_26,Expert vs Novice,Maria,Burcin,pre,tumor,0.7396982376061874
+Case_26,Expert vs Novice,Maria,Onur,pre,tumor,0.8371349702164754
+Case_26,Experts,Natally,Maria,pre,tumor,0.8450092994420335
+Case_26,Novices,Burcin,Onur,pre,tumor,0.819490325625295
+Case_26,Expert vs Novice,Natally,Burcin,post,pancreas,0.7486984126984128
+Case_26,Expert vs Novice,Natally,Onur,post,pancreas,0.8604102805941994
+Case_26,Expert vs Novice,Maria,Burcin,post,pancreas,0.8496467108506326
+Case_26,Expert vs Novice,Maria,Onur,post,pancreas,0.8405778069599474
+Case_26,Experts,Natally,Maria,post,pancreas,0.8047757559358723
+Case_26,Novices,Burcin,Onur,post,pancreas,0.7746496264740385
+Case_26,Expert vs Novice,Natally,Burcin,post,tumor,0.5728234336859235
+Case_26,Expert vs Novice,Natally,Onur,post,tumor,0.7374380750176929
+Case_26,Expert vs Novice,Maria,Burcin,post,tumor,0.5826740506329114
+Case_26,Expert vs Novice,Maria,Onur,post,tumor,0.6965610249494268
+Case_26,Experts,Natally,Maria,post,tumor,0.5968891769280622
+Case_26,Novices,Burcin,Onur,post,tumor,0.5383653044203502
+Case_27,Expert vs Novice,Natally,Burcin,pre,pancreas,0.828285019289466
+Case_27,Expert vs Novice,Natally,Onur,pre,pancreas,0.8494849187935035
+Case_27,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8276928417033496
+Case_27,Expert vs Novice,Maria,Onur,pre,pancreas,0.877089143095631
+Case_27,Experts,Natally,Maria,pre,pancreas,0.8386350291852313
+Case_27,Novices,Burcin,Onur,pre,pancreas,0.8018534119629318
+Case_27,Expert vs Novice,Natally,Burcin,pre,tumor,0.7717813660305674
+Case_27,Expert vs Novice,Natally,Onur,pre,tumor,0.7667623712210775
+Case_27,Expert vs Novice,Maria,Burcin,pre,tumor,0.4922232387923147
+Case_27,Expert vs Novice,Maria,Onur,pre,tumor,0.7494416411613863
+Case_27,Experts,Natally,Maria,pre,tumor,0.6112978283350569
+Case_27,Novices,Burcin,Onur,pre,tumor,0.6786996309216846
+Case_27,Expert vs Novice,Natally,Burcin,post,pancreas,0.6827753576219834
+Case_27,Expert vs Novice,Natally,Onur,post,pancreas,0.8058314151046805
+Case_27,Expert vs Novice,Maria,Burcin,post,pancreas,0.714267871268579
+Case_27,Expert vs Novice,Maria,Onur,post,pancreas,0.8028287000058444
+Case_27,Experts,Natally,Maria,post,pancreas,0.7525954799295379
+Case_27,Novices,Burcin,Onur,post,pancreas,0.6641579847613124
+Case_27,Expert vs Novice,Natally,Burcin,post,tumor,0.7008390141583639
+Case_27,Expert vs Novice,Natally,Onur,post,tumor,0.806357484323586
+Case_27,Expert vs Novice,Maria,Burcin,post,tumor,0.7302383939774153
+Case_27,Expert vs Novice,Maria,Onur,post,tumor,0.7736111111111111
+Case_27,Experts,Natally,Maria,post,tumor,0.7662993245645219
+Case_27,Novices,Burcin,Onur,post,tumor,0.7609518311846578
+Case_28,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8313301990172859
+Case_28,Expert vs Novice,Natally,Onur,pre,pancreas,0.8728118722584348
+Case_28,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8780744183754753
+Case_28,Expert vs Novice,Maria,Onur,pre,pancreas,0.8713119308389916
+Case_28,Experts,Natally,Maria,pre,pancreas,0.8574882192401764
+Case_28,Novices,Burcin,Onur,pre,pancreas,0.8485852798589687
+Case_28,Expert vs Novice,Natally,Burcin,pre,tumor,0.7925736235595391
+Case_28,Expert vs Novice,Natally,Onur,pre,tumor,0.7932656598167863
+Case_28,Expert vs Novice,Maria,Burcin,pre,tumor,0.8699080157687253
+Case_28,Expert vs Novice,Maria,Onur,pre,tumor,0.887981627966318
+Case_28,Experts,Natally,Maria,pre,tumor,0.8177655677655677
+Case_28,Novices,Burcin,Onur,pre,tumor,0.8331366532924239
+Case_28,Expert vs Novice,Natally,Burcin,post,pancreas,0.8549928206824486
+Case_28,Expert vs Novice,Natally,Onur,post,pancreas,0.8913212618475032
+Case_28,Expert vs Novice,Maria,Burcin,post,pancreas,0.8876145657947573
+Case_28,Expert vs Novice,Maria,Onur,post,pancreas,0.8636423233250295
+Case_28,Experts,Natally,Maria,post,pancreas,0.8670020660179475
+Case_28,Novices,Burcin,Onur,post,pancreas,0.8360639119144722
+Case_28,Expert vs Novice,Natally,Burcin,post,tumor,0.8225712623618383
+Case_28,Expert vs Novice,Natally,Onur,post,tumor,0.7953400503778337
+Case_28,Expert vs Novice,Maria,Burcin,post,tumor,0.8727348037692866
+Case_28,Expert vs Novice,Maria,Onur,post,tumor,0.8639386765866306
+Case_28,Experts,Natally,Maria,post,tumor,0.8306315266036798
+Case_28,Novices,Burcin,Onur,post,tumor,0.8256297918948521
+Case_29,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8158159026942581
+Case_29,Expert vs Novice,Natally,Onur,pre,pancreas,0.8264650972177952
+Case_29,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8563834858886347
+Case_29,Expert vs Novice,Maria,Onur,pre,pancreas,0.8474845951340875
+Case_29,Experts,Natally,Maria,pre,pancreas,0.8232128611798429
+Case_29,Novices,Burcin,Onur,pre,pancreas,0.7807406235163792
+Case_29,Expert vs Novice,Natally,Burcin,pre,tumor,0.28708611632716124
+Case_29,Expert vs Novice,Natally,Onur,pre,tumor,0.22593582887700533
+Case_29,Expert vs Novice,Maria,Burcin,pre,tumor,0.49621457927752544
+Case_29,Expert vs Novice,Maria,Onur,pre,tumor,0.6441125941588476
+Case_29,Experts,Natally,Maria,pre,tumor,0.1271282633371169
+Case_29,Novices,Burcin,Onur,pre,tumor,0.6848149723521906
+Case_29,Expert vs Novice,Natally,Burcin,post,pancreas,0.7339182786871227
+Case_29,Expert vs Novice,Natally,Onur,post,pancreas,0.805305889079474
+Case_29,Expert vs Novice,Maria,Burcin,post,pancreas,0.7643190533201465
+Case_29,Expert vs Novice,Maria,Onur,post,pancreas,0.8617658716280805
+Case_29,Experts,Natally,Maria,post,pancreas,0.7990673661420601
+Case_29,Novices,Burcin,Onur,post,pancreas,0.7086755935636323
+Case_29,Expert vs Novice,Natally,Burcin,post,tumor,0.6448711295623595
+Case_29,Expert vs Novice,Natally,Onur,post,tumor,0.7091445427728613
+Case_29,Expert vs Novice,Maria,Burcin,post,tumor,0.4733382030679328
+Case_29,Expert vs Novice,Maria,Onur,post,tumor,0.55584872471416
+Case_29,Experts,Natally,Maria,post,tumor,0.43351458230350964
+Case_29,Novices,Burcin,Onur,post,tumor,0.6529343179168287
+Case_30,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7271911080785046
+Case_30,Expert vs Novice,Natally,Onur,pre,pancreas,0.777042270980538
+Case_30,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8163903760562472
+Case_30,Expert vs Novice,Maria,Onur,pre,pancreas,0.6840277777777778
+Case_30,Experts,Natally,Maria,pre,pancreas,0.7554253512716688
+Case_30,Novices,Burcin,Onur,pre,pancreas,0.6564935597670031
+Case_30,Expert vs Novice,Natally,Burcin,pre,tumor,0.6631642756112346
+Case_30,Expert vs Novice,Natally,Onur,pre,tumor,0.8357268698948268
+Case_30,Expert vs Novice,Maria,Burcin,pre,tumor,0.8206767178489544
+Case_30,Expert vs Novice,Maria,Onur,pre,tumor,0.7621640611277006
+Case_30,Experts,Natally,Maria,pre,tumor,0.7217449365679947
+Case_30,Novices,Burcin,Onur,pre,tumor,0.7125977965831072
+Case_30,Expert vs Novice,Natally,Burcin,post,pancreas,0.7674371859296483
+Case_30,Expert vs Novice,Natally,Onur,post,pancreas,0.8163463662469627
+Case_30,Expert vs Novice,Maria,Burcin,post,pancreas,0.7794417971409122
+Case_30,Expert vs Novice,Maria,Onur,post,pancreas,0.8187780316493187
+Case_30,Experts,Natally,Maria,post,pancreas,0.826298024045208
+Case_30,Novices,Burcin,Onur,post,pancreas,0.7157871445956411
+Case_30,Expert vs Novice,Natally,Burcin,post,tumor,0.7518483807143601
+Case_30,Expert vs Novice,Natally,Onur,post,tumor,0.8055003125177567
+Case_30,Expert vs Novice,Maria,Burcin,post,tumor,0.829900124843945
+Case_30,Expert vs Novice,Maria,Onur,post,tumor,0.8789237668161435
+Case_30,Experts,Natally,Maria,post,tumor,0.8294810292193633
+Case_30,Novices,Burcin,Onur,post,tumor,0.8315385031657557
+Case_31,Expert vs Novice,Natally,Burcin,pre,pancreas,0.7072010068037913
+Case_31,Expert vs Novice,Natally,Onur,pre,pancreas,0.8385410616796376
+Case_31,Expert vs Novice,Maria,Burcin,pre,pancreas,0.715568746868134
+Case_31,Expert vs Novice,Maria,Onur,pre,pancreas,0.8244614864102854
+Case_31,Experts,Natally,Maria,pre,pancreas,0.878139298423996
+Case_31,Novices,Burcin,Onur,pre,pancreas,0.6425439530032778
+Case_31,Expert vs Novice,Natally,Burcin,pre,tumor,0.0
+Case_31,Expert vs Novice,Natally,Onur,pre,tumor,0.14888079125455492
+Case_31,Expert vs Novice,Maria,Burcin,pre,tumor,0.0
+Case_31,Expert vs Novice,Maria,Onur,pre,tumor,0.2345110087045571
+Case_31,Experts,Natally,Maria,pre,tumor,0.5718475073313783
+Case_31,Novices,Burcin,Onur,pre,tumor,0.0
+Case_31,Expert vs Novice,Natally,Burcin,post,pancreas,0.7292651343476854
+Case_31,Expert vs Novice,Natally,Onur,post,pancreas,0.8175267945600289
+Case_31,Expert vs Novice,Maria,Burcin,post,pancreas,0.7850137368962289
+Case_31,Expert vs Novice,Maria,Onur,post,pancreas,0.8272888981898086
+Case_31,Experts,Natally,Maria,post,pancreas,0.8318780264872329
+Case_31,Novices,Burcin,Onur,post,pancreas,0.6965809025866814
+Case_31,Expert vs Novice,Natally,Burcin,post,tumor,0.0
+Case_31,Expert vs Novice,Natally,Onur,post,tumor,0.6626794258373205
+Case_31,Expert vs Novice,Maria,Burcin,post,tumor,0.0
+Case_31,Expert vs Novice,Maria,Onur,post,tumor,0.23429541595925296
+Case_31,Experts,Natally,Maria,post,tumor,0.2226148409893993
+Case_31,Novices,Burcin,Onur,post,tumor,0.0
+Case_32,Expert vs Novice,Natally,Burcin,pre,pancreas,0.728459152348961
+Case_32,Expert vs Novice,Natally,Onur,pre,pancreas,0.7254593961153913
+Case_32,Expert vs Novice,Maria,Burcin,pre,pancreas,0.7579404161024252
+Case_32,Expert vs Novice,Maria,Onur,pre,pancreas,0.6920134353424147
+Case_32,Experts,Natally,Maria,pre,pancreas,0.8065407558460864
+Case_32,Novices,Burcin,Onur,pre,pancreas,0.5710756366400608
+Case_32,Expert vs Novice,Natally,Burcin,pre,tumor,0.7145850120870266
+Case_32,Expert vs Novice,Natally,Onur,pre,tumor,0.6753623188405797
+Case_32,Expert vs Novice,Maria,Burcin,pre,tumor,0.6665281529191772
+Case_32,Expert vs Novice,Maria,Onur,pre,tumor,0.8155904595695171
+Case_32,Experts,Natally,Maria,pre,tumor,0.6710418375717802
+Case_32,Novices,Burcin,Onur,pre,tumor,0.670023075309419
+Case_32,Expert vs Novice,Natally,Burcin,post,pancreas,0.7810410432598175
+Case_32,Expert vs Novice,Natally,Onur,post,pancreas,0.8099886813808715
+Case_32,Expert vs Novice,Maria,Burcin,post,pancreas,0.7837842722622856
+Case_32,Expert vs Novice,Maria,Onur,post,pancreas,0.7879538521525723
+Case_32,Experts,Natally,Maria,post,pancreas,0.8293312043235276
+Case_32,Novices,Burcin,Onur,post,pancreas,0.7207494681721486
+Case_32,Expert vs Novice,Natally,Burcin,post,tumor,0.6775098149186763
+Case_32,Expert vs Novice,Natally,Onur,post,tumor,0.6202578268876612
+Case_32,Expert vs Novice,Maria,Burcin,post,tumor,0.7018653177363263
+Case_32,Expert vs Novice,Maria,Onur,post,tumor,0.8365051903114187
+Case_32,Experts,Natally,Maria,post,tumor,0.7065567896811179
+Case_32,Novices,Burcin,Onur,post,tumor,0.671201814058957
+Case_33,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8690326154142551
+Case_33,Expert vs Novice,Natally,Onur,pre,pancreas,0.8945584496923701
+Case_33,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8960368898935811
+Case_33,Expert vs Novice,Maria,Onur,pre,pancreas,0.8702369571155422
+Case_33,Experts,Natally,Maria,pre,pancreas,0.8819929202368744
+Case_33,Novices,Burcin,Onur,pre,pancreas,0.8492679010404165
+Case_33,Expert vs Novice,Natally,Burcin,pre,tumor,0.7999625222524126
+Case_33,Expert vs Novice,Natally,Onur,pre,tumor,0.8084980820300973
+Case_33,Expert vs Novice,Maria,Burcin,pre,tumor,0.8517244972387205
+Case_33,Expert vs Novice,Maria,Onur,pre,tumor,0.8793312066879331
+Case_33,Experts,Natally,Maria,pre,tumor,0.7889233152594888
+Case_33,Novices,Burcin,Onur,pre,tumor,0.8692242475625265
+Case_33,Expert vs Novice,Natally,Burcin,post,pancreas,0.8115899683467251
+Case_33,Expert vs Novice,Natally,Onur,post,pancreas,0.8742106036128653
+Case_33,Expert vs Novice,Maria,Burcin,post,pancreas,0.8624923768693736
+Case_33,Expert vs Novice,Maria,Onur,post,pancreas,0.8530192584593232
+Case_33,Experts,Natally,Maria,post,pancreas,0.8711910461279679
+Case_33,Novices,Burcin,Onur,post,pancreas,0.7839399366582683
+Case_33,Expert vs Novice,Natally,Burcin,post,tumor,0.7120701281186783
+Case_33,Expert vs Novice,Natally,Onur,post,tumor,0.6556580864497329
+Case_33,Expert vs Novice,Maria,Burcin,post,tumor,0.5074074074074074
+Case_33,Expert vs Novice,Maria,Onur,post,tumor,0.7017304189435337
+Case_33,Experts,Natally,Maria,post,tumor,0.6518678938819708
+Case_33,Novices,Burcin,Onur,post,tumor,0.4672489082969432
+Case_34,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8066312433581296
+Case_34,Expert vs Novice,Natally,Onur,pre,pancreas,0.8487800126625432
+Case_34,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8335444947209653
+Case_34,Expert vs Novice,Maria,Onur,pre,pancreas,0.8290162547724104
+Case_34,Experts,Natally,Maria,pre,pancreas,0.8472147973912114
+Case_34,Novices,Burcin,Onur,pre,pancreas,0.7909417162585745
+Case_34,Expert vs Novice,Natally,Burcin,pre,tumor,0.7741138693343214
+Case_34,Expert vs Novice,Natally,Onur,pre,tumor,0.8238596491228071
+Case_34,Expert vs Novice,Maria,Burcin,pre,tumor,0.8476087543907053
+Case_34,Expert vs Novice,Maria,Onur,pre,tumor,0.8942457231726283
+Case_34,Experts,Natally,Maria,pre,tumor,0.8007161547996143
+Case_34,Novices,Burcin,Onur,pre,tumor,0.856317093311313
+Case_34,Expert vs Novice,Natally,Burcin,post,pancreas,0.7362978773864579
+Case_34,Expert vs Novice,Natally,Onur,post,pancreas,0.7871743718738254
+Case_34,Expert vs Novice,Maria,Burcin,post,pancreas,0.7820828473932011
+Case_34,Expert vs Novice,Maria,Onur,post,pancreas,0.751317012705299
+Case_34,Experts,Natally,Maria,post,pancreas,0.8253604419281637
+Case_34,Novices,Burcin,Onur,post,pancreas,0.7568031774998658
+Case_34,Expert vs Novice,Natally,Burcin,post,tumor,0.7719435736677116
+Case_34,Expert vs Novice,Natally,Onur,post,tumor,0.8606841844323252
+Case_34,Expert vs Novice,Maria,Burcin,post,tumor,0.8617155187915843
+Case_34,Expert vs Novice,Maria,Onur,post,tumor,0.8532620797149856
+Case_34,Experts,Natally,Maria,post,tumor,0.8400787573835047
+Case_34,Novices,Burcin,Onur,post,tumor,0.7750796178343949
+Case_35,Expert vs Novice,Natally,Burcin,pre,pancreas,0.806127142200092
+Case_35,Expert vs Novice,Natally,Onur,pre,pancreas,0.8561729583975347
+Case_35,Expert vs Novice,Maria,Burcin,pre,pancreas,0.827094543406049
+Case_35,Expert vs Novice,Maria,Onur,pre,pancreas,0.8580264136904762
+Case_35,Experts,Natally,Maria,pre,pancreas,0.8604957805907173
+Case_35,Novices,Burcin,Onur,pre,pancreas,0.7842394392877439
+Case_35,Expert vs Novice,Natally,Burcin,pre,tumor,0.5883711975356181
+Case_35,Expert vs Novice,Natally,Onur,pre,tumor,0.7357774968394437
+Case_35,Expert vs Novice,Maria,Burcin,pre,tumor,0.28066825775656323
+Case_35,Expert vs Novice,Maria,Onur,pre,tumor,0.524074074074074
+Case_35,Experts,Natally,Maria,pre,tumor,0.5028571428571429
+Case_35,Novices,Burcin,Onur,pre,tumor,0.5111989459815547
+Case_35,Expert vs Novice,Natally,Burcin,post,pancreas,0.7576650806545201
+Case_35,Expert vs Novice,Natally,Onur,post,pancreas,0.8471722250319816
+Case_35,Expert vs Novice,Maria,Burcin,post,pancreas,0.8376129740687558
+Case_35,Expert vs Novice,Maria,Onur,post,pancreas,0.8207686622320769
+Case_35,Experts,Natally,Maria,post,pancreas,0.8274869863192864
+Case_35,Novices,Burcin,Onur,post,pancreas,0.7497894244267665
+Case_35,Expert vs Novice,Natally,Burcin,post,tumor,0.0
+Case_35,Expert vs Novice,Natally,Onur,post,tumor,0.30424710424710427
+Case_35,Expert vs Novice,Maria,Burcin,post,tumor,0.5586497890295359
+Case_35,Expert vs Novice,Maria,Onur,post,tumor,0.0
+Case_35,Experts,Natally,Maria,post,tumor,0.0
+Case_35,Novices,Burcin,Onur,post,tumor,0.003656307129798903
+Case_36,Expert vs Novice,Natally,Burcin,pre,pancreas,0.8015003787013549
+Case_36,Expert vs Novice,Natally,Onur,pre,pancreas,0.8817461242569063
+Case_36,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8581497600214806
+Case_36,Expert vs Novice,Maria,Onur,pre,pancreas,0.8763429365545994
+Case_36,Experts,Natally,Maria,pre,pancreas,0.8576253920596199
+Case_36,Novices,Burcin,Onur,pre,pancreas,0.8161709168075387
+Case_36,Expert vs Novice,Natally,Burcin,pre,tumor,0.7232641374373657
+Case_36,Expert vs Novice,Natally,Onur,pre,tumor,0.7105854169785896
+Case_36,Expert vs Novice,Maria,Burcin,pre,tumor,0.7395675526786943
+Case_36,Expert vs Novice,Maria,Onur,pre,tumor,0.7263838964773545
+Case_36,Experts,Natally,Maria,pre,tumor,0.7578388808490111
+Case_36,Novices,Burcin,Onur,pre,tumor,0.7694759206798867
+Case_36,Expert vs Novice,Natally,Burcin,post,pancreas,0.6673209028459274
+Case_36,Expert vs Novice,Natally,Onur,post,pancreas,0.8797634798516849
+Case_36,Expert vs Novice,Maria,Burcin,post,pancreas,0.7505924850965202
+Case_36,Expert vs Novice,Maria,Onur,post,pancreas,0.8710105232809572
+Case_36,Experts,Natally,Maria,post,pancreas,0.8374554647191875
+Case_36,Novices,Burcin,Onur,post,pancreas,0.697284050088965
+Case_36,Expert vs Novice,Natally,Burcin,post,tumor,0.5331669785818257
+Case_36,Expert vs Novice,Natally,Onur,post,tumor,0.7715764442579381
+Case_36,Expert vs Novice,Maria,Burcin,post,tumor,0.490154711673699
+Case_36,Expert vs Novice,Maria,Onur,post,tumor,0.807673143996014
+Case_36,Experts,Natally,Maria,post,tumor,0.6939331970006817
+Case_36,Novices,Burcin,Onur,post,tumor,0.5343511450381679
+Case_38,Expert vs Novice,Natally,Burcin,pre,pancreas,0.774856239848997
+Case_38,Expert vs Novice,Natally,Onur,pre,pancreas,0.8748113845673552
+Case_38,Expert vs Novice,Maria,Burcin,pre,pancreas,0.8458838669422455
+Case_38,Expert vs Novice,Maria,Onur,pre,pancreas,0.8484217200307957
+Case_38,Experts,Natally,Maria,pre,pancreas,0.8177378848479211
+Case_38,Novices,Burcin,Onur,pre,pancreas,0.8045376712328767
+Case_38,Expert vs Novice,Natally,Burcin,pre,tumor,0.7163695299837926
+Case_38,Expert vs Novice,Natally,Onur,pre,tumor,0.6816640986132512
+Case_38,Expert vs Novice,Maria,Burcin,pre,tumor,0.753805561193424
+Case_38,Expert vs Novice,Maria,Onur,pre,tumor,0.6396786155747837
+Case_38,Experts,Natally,Maria,pre,tumor,0.7485812978040958
+Case_38,Novices,Burcin,Onur,pre,tumor,0.5680990531682447
+Case_38,Expert vs Novice,Natally,Burcin,post,pancreas,0.7717778194080179
+Case_38,Expert vs Novice,Natally,Onur,post,pancreas,0.8408323614265545
+Case_38,Expert vs Novice,Maria,Burcin,post,pancreas,0.7661149331335286
+Case_38,Expert vs Novice,Maria,Onur,post,pancreas,0.8283364287609446
+Case_38,Experts,Natally,Maria,post,pancreas,0.8158033753162621
+Case_38,Novices,Burcin,Onur,post,pancreas,0.7381081214029219
+Case_38,Expert vs Novice,Natally,Burcin,post,tumor,0.4717458532471184
+Case_38,Expert vs Novice,Natally,Onur,post,tumor,0.7360208062418726
+Case_38,Expert vs Novice,Maria,Burcin,post,tumor,0.6562344759066071
+Case_38,Expert vs Novice,Maria,Onur,post,tumor,0.6198305929247633
+Case_38,Experts,Natally,Maria,post,tumor,0.6696230598669624
+Case_38,Novices,Burcin,Onur,post,tumor,0.3892414626775461

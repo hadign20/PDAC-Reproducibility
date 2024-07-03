@@ -255,8 +255,25 @@ def main():
                 icc3_df.to_excel(output_path, index=False)
                 print(f"ICC3 values saved to {output_path}")
 
+    # =========================================================
+    # Create ICC bar plots
+    # =========================================================
+    icc_excel_files = [
+        "ICC3_experts_post_pancreas.xlsx",
+        "ICC3_experts_post_tumor.xlsx",
+        "ICC3_experts_pre_pancreas.xlsx",
+        "ICC3_experts_pre_tumor.xlsx",
+        "ICC3_novices_post_pancreas.xlsx",
+        "ICC3_novices_post_tumor.xlsx",
+        "ICC3_novices_pre_pancreas.xlsx",
+        "ICC3_novices_pre_tumor.xlsx"
+    ]
 
+    for excel_file in icc_excel_files:
+        icc_file = os.path.join(result_path, excel_file)
+        icc_df = pd.read_excel(icc_file)
 
+        # 
 
 
 
