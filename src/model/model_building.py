@@ -8,6 +8,10 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import (accuracy_score, roc_auc_score, confusion_matrix, classification_report,
                              precision_score, recall_score, f1_score, roc_curve)
 from scipy import stats
+from sklearn.neural_network import MLPClassifier
+from sklearn.model_selection import GridSearchCV
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
 
 def get_classifiers():
     """
@@ -17,7 +21,8 @@ def get_classifiers():
         'RandomForest': RandomForestClassifier(),
         'SVM': SVC(probability=True),
         'LogisticRegression': LogisticRegression(),
-        'NaiveBayes': GaussianNB()
+        'NaiveBayes': GaussianNB(),
+        'NeuralNetwork': MLPClassifier(hidden_layer_sizes=(100,), max_iter=500)
     }
 
 
@@ -41,7 +46,7 @@ def compute_metrics(y_true, y_pred, y_pred_prob):
     specificity = tn / (tn + fp) if (tn + fp) else 0
     sensitivity = recall_score(y_true, y_pred)
     ppv = precision_score(y_true, y_pred)
-    npv = tn / (tn + fn) if (tn + fn) else 0
+    npv = tn / (tn + fn) if (tn + fn) > 0 else 0
     f1 = f1_score(y_true, y_pred)
 
     metrics = {
@@ -110,17 +115,21 @@ def train_test_split_evaluation(X, y, test_size=0.2, random_state=42):
 
     for classifier_name, clf in classifiers.items():
         clf.fit(X_train, y_train)
-        y_pred = clf.predict(X_test)
-        y_pred_prob = clf.predict_proba(X_test)[:, 1] if hasattr(clf, "predict_proba") else None
-        metrics, ci = compute_metrics(y_test, y_pred, y_pred_prob)
-        test_results[classifier_name] = {
-            'metrics': metrics,
-            'confidence_intervals': ci
+
+        # train set
+        y_pred_train = clf.predict(X_train)
+        y_pred_prob_train = clf.predict_proba(X_train)[:, 1] if hasattr(clf, "predict_proba") else None
+        metrics_train, ci_train = compute_metrics(y_train, y_pred_train, y_pred_prob_train)
+
+        # test set
+        y_pred_test = clf.predict(X_test)
+        y_pred_prob_test = clf.predict_proba(X_test)[:, 1] if hasattr(clf, "predict_proba") else None
+        metrics_test, ci_test = compute_metrics(y_test, y_pred_test, y_pred_prob_test)
+
+        results[classifier_name] = {
+            'train': {'metrics': metrics_train, 'confidence_intervals': ci_train},
+            'test': {'metrics': metrics_test, 'confidence_intervals': ci_test}
         }
-
-    results['train'] = train_results
-    results['test'] = test_results
-
 
     return results
 
@@ -162,7 +171,15 @@ def cross_validation_evaluation(X, y, cv=10):
     return results
 
 
-def evaluate_models(X, y, method='train_test_split', **kwargs):
+
+def hyperparameter_tuning(X, y, model, param_grid, cv=5):
+    grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=cv, scoring='roc_auc')
+    grid_search.fit(X, y)
+    return grid_search.best_estimator_
+
+
+
+def evaluate_models(X, y, method='train_test_split', hyperparam_tune=False, **kwargs):
     """
     Evaluate models using the specified method.
 
@@ -175,12 +192,36 @@ def evaluate_models(X, y, method='train_test_split', **kwargs):
     Returns:
     dict: Evaluation results for each classifier.
     """
+    classifiers = get_classifiers()
+    results = {}
+
     if method == 'train_test_split':
-        return train_test_split_evaluation(X, y, **kwargs)
-    elif method == 'cross_validation':
-        return cross_validation_evaluation(X, y, **kwargs)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, **kwargs)
     else:
-        raise ValueError("Invalid method. Choose 'train_test_split' or 'cross_validation'.")
+        skf = StratifiedKFold(n_splits=kwargs.get('cv', 5))
+
+    for name, clf in classifiers.items():
+        if hyperparam_tune:
+            param_grid = {'n_estimators': [100, 200], 'max_depth': [3, 5, 7]}  # Example grid
+            clf = hyperparameter_tuning(X_train, y_train, clf, param_grid) if method == 'train_test_split' else clf
+
+        clf.fit(X_train, y_train)
+        y_pred = clf.predict(X_test)
+        y_pred_prob = clf.predict_proba(X_test)[:, 1] if hasattr(clf, "predict_proba") else None
+        metrics, ci = compute_metrics(y_test, y_pred, y_pred_prob)
+        results[name] = {
+            'metrics': metrics,
+            'confidence_intervals': ci
+        }
+    return results
+
+
+    # if method == 'train_test_split':
+    #     return train_test_split_evaluation(X, y, **kwargs)
+    # elif method == 'cross_validation':
+    #     return cross_validation_evaluation(X, y, **kwargs)
+    # else:
+    #     raise ValueError("Invalid method. Choose 'train_test_split' or 'cross_validation'.")
 
 
 def save_classification_results(results, output_file, method='train_test_split'):

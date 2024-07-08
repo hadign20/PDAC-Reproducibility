@@ -44,14 +44,7 @@ def load_csv(file_path):
     return pd.read_csv(file_path)
 
 
-def resample_image(image, reference_image):
-    """Function to resample images to the same shape"""
-    resampler = sitk.ResampleImageFilter()
-    resampler.SetReferenceImage(reference_image)
-    resampler.SetInterpolator(sitk.sitkNearestNeighbor)
-    resampler.SetDefaultPixelValue(0)
-    resampler.SetOutputPixelType(sitk.sitkUInt8)
-    return resampler.Execute(image)
+
 
 
 

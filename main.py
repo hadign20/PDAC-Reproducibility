@@ -3,26 +3,31 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from src.preprocessing.data_loader import *
+from src.preprocessing.data_cleaning import *
 from src.preprocessing.data_cleaning import clean_clinical_data, normalize_radiomics_features
 from src.feature_extraction.radiomics_features import extract_radiomics_features
 #from src.feature_extraction.deep_features import extract_deep_features
 from src.feature_selection.correlation import calculate_correlation_matrix, select_highly_correlated_features
-from src.model.train_test_split import split_data
-from src.model.train import train_model, evaluate_model
 from src.visualization.plotting import plot_auc_with_ci
 from src.feature_selection import inter_reader_agreement
 from src.feature_selection.inter_reader_agreement import *
 from src.visualization.plotting import *
 
-
+# =========================================================
+# Params
+# =========================================================
 EXTRACT_RADIOMICS = True
+EXTRACT_DEEP = True
 CALCULATE_DICE_SCORE = True
 CALCULATE_ICC_VALUES = True
-
 
 data_path = r'D:\projects\pdac_reproducibility\PDACreproducibility'
 result_path = r'D:\projects\pdac_reproducibility\pdac_reproducibility\results'
 params_path = r'D:\projects\pdac_reproducibility\pdac_reproducibility\src\feature_extraction\CT.yaml'
+
+deep_image_dir = 'path_to_deep_images'
+deep_output_file = 'path_to_save_deep_features.csv'
+dl_model_name = 'resnet50'  # Change to desired model name (e.g., 'vgg16', 'densenet121')
 
 
 def main():
@@ -77,6 +82,44 @@ def main():
                         df.to_excel(writer, sheet_name=reader, index=False)
                 print(f"Radiomics features saved to {output_excel_path}")
 
+        # =========================================================
+        # Deep Feature Extraction
+        # =========================================================
+        if EXTRACT_DEEP:
+            for seg_type in ["pre", "post"]:
+                for organ in ["pancreas", "tumor"]:
+                    reader_data = {reader: [] for reader in folders}
+
+                    for case in range(1, 39):
+                        if case in [2, 8, 11, 14, 16, 17, 22, 37]: continue
+                        case_str = f"Case_{case:02d}"
+
+                        seg_file = f"{case_str}_{seg_type}_{organ}.mha"
+                        print(f"Processing {case_str}_{seg_type}_{organ}.mha")
+
+                        for reader, folder in folders.items():
+                            seg_full_path = os.path.join(data_path, folder, seg_file)
+                            if not os.path.exists(seg_full_path):
+                                print(f"file {seg_full_path} don't exist..!")
+                                continue
+                            else:
+                                image_file = f"{case_str.split('_')[1]}_neo_pdac_{seg_type}_volume.mha"
+                                image_full_path = os.path.join(data_path, "WholeCT_MHA", image_file)
+                                if not os.path.exists(image_full_path):
+                                    print(f"file {image_full_path} don't exist..!")
+                                    continue
+                                else:
+                                    features = extract_radiomics_features(image_full_path, seg_full_path, params_path)
+                                    features_row = {'Case_ID': case_str}
+                                    features_row.update(features)
+                                    reader_data[reader].append(features_row)
+
+                    output_excel_path = os.path.join(result_path, "PyRadiomics_" + seg_type + "_" + organ + ".xlsx")
+                    with pd.ExcelWriter(output_excel_path, engine='openpyxl') as writer:
+                        for reader, data in reader_data.items():
+                            df = pd.DataFrame(data)
+                            df.to_excel(writer, sheet_name=reader, index=False)
+                    print(f"Radiomics features saved to {output_excel_path}")
 
 
     # =========================================================
